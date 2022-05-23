@@ -1,7 +1,13 @@
 style>
+*{
+    height: 100%;
+}
 body{
+    background-image: linear-gradient(to right, #26BF52, #35F091,#4790B0);
+    background-attachment: fixed;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
     
 
 }
@@ -12,4 +18,9 @@ h1{
 p{
     text-align: center;
     font-size: 15px;
+}
+h2{
+    color: white;
+    text-decoration: underline;
+
 }
