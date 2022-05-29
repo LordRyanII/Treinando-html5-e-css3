@@ -16,3 +16,12 @@ h1#principal{
 h2{
     color: seagreen;
 }
+.basico{
+    color: yellow;
+}
+.interm{
+    color: black;
+}
+.avancado{
+    color: blueviolet;
+}
