@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: red;
+        }
+        a:hover{
+            color:red;
+            text-decoration: underline;
+        }
+        h1{
+            text-align: center;
+            font-size: 45px;
+            background-color: aqua;
+            width: 1300px;
+            height: 45px;
+            margin: auto;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: '[link]';
+            color: blue;
+        }
+        a::before{
+            content: 'clique aqui';
+            color: blue;
+            text-decoration: underline blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Personalizando links
+    </h1>
+    <ul>
+        <li>
+            <a href="https://youtube.com" target="_blank" class="especial">
+                Acesse o youtube aqui
+            </a>
+        </li>
+        <li>
+            <a href="https://github.io" target="_blank">
+                acesse o github aqui
+            </a>
+        </li>
+        <li>
+            <a href="https://generic.com">
+                acesse o generic site aqui
+            </a>
+        </li>
+    </ul>
+    
+</body>
+</html>
